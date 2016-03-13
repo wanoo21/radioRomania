@@ -1,2 +1,44 @@
-# radioRomania
-Listen all Radio from Romania in your Chrome browser!
+# Radio Romania online
+Asculta toate posturile radio din Romania direct din browserul tau Chrome!
+
+* "Antena Satelor"
+* "Digi FM"
+* "Europa FM"
+* "Pro FM"
+* "Kiss FM"
+* "Radio ZU"
+* "Radio Prahova"
+* "Radio Funky"
+* "Radio Popular"
+* "Radio Romania Actualitati"
+* "Itsy Bitsy"
+* "Dance Station"
+* "Radio X Net"
+* "Radio Voces Campi"
+* "RFI Romania"
+* "Radio Traditional"
+* "Super FM"
+* "ROCK FM"
+* "Radio Petrecaretzu"
+* "Magic FM"
+* "Radio 21"
+* "Romantic FM"
+* "Dance FM"
+* "Radio Ideea"
+* "Radio Taraf"
+* "Radio Crazy"
+* "Radio Romania Muzical"
+* "West City Radio"
+* "Radio Hot"
+* "Impact FM"
+* "C FM"
+* "KPTV"
+* "HIT Radio"
+* "Radio Bandit"
+* "Radio Teer"
+* "Radio Zuper"
+* "Radio Mega"
+* "Vibe FM"
+
+Daca ai gasit greseli sau ai propuneri/sugestii, esti liber sa le scrii https://github.com/wanoo21/radioRomania/issues
+Spor la munca!

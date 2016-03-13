@@ -1,11 +1,11 @@
 {
 	"manifest_version": 2,
 	"version": "1.5.5",
-	"name": "Radio Moldova",
-	"short_name": "MD radio stations",
-	"description": "Asculta online toate posturile Radio din Republica Moldova",
+	"name": "Radio Romania",
+	"short_name": "Romania radio stations",
+	"description": "Asculta online toate posturile Radio din Romania",
 	"author": "IP",
-	"homepage_url": "https://github.com/wanoo21/radiosmoldova",
+	"homepage_url": "https://github.com/wanoo21/radioRomania",
 	"offline_enabled": false,
 	"content_security_policy": "script-src 'self' https://ajax.googleapis.com https://maxcdn.bootstrapcdn.com https://cdn.firebase.com https://*.firebaseio.com; object-src 'self'",
 	"browser_action": {

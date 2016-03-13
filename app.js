@@ -201,7 +201,7 @@
 	};
 
     self.getNameId = function(name) {
-        return name.split(' ').join('-').toLowerCase();
+        return name.split(' ').join('-').toLowerCase() + '-ro';
     };
 
 	// Make changes if radio play on loading DOM
@@ -236,7 +236,7 @@
 		// Generate dynamically list on html
 		$.when($.each(radioList, function(k, v) {
             //if (!self.background.radioKeys)
-                //self.background.listeners.push({ id: k, name: v.name, listeners: 0, nameId: self.getNameId(v.name) });
+            //    self.background.listeners.push({ id: k, name: v.name, listeners: 0, nameId: self.getNameId(v.name) });
             self.radioList[k].nameId = self.getNameId(v.name);
             self.radioList[k].id = k;
 			list += '<a href=# class="list-group-item" data-id=' + k + '>' + v.name + '<span class="badge" style="display: none" title="Asculta acum acest post"></span></a>'

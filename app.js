@@ -63,6 +63,7 @@
                 })
             } else {
                 Object.keys(currentData).forEach(function (key) {
+					if (!currentData[key].id || currentData[key].nameId.indexOf('-ro') == -1) return;
                     return self.addBadgeInfo(currentData[key]);
                 })
             }
@@ -104,7 +105,7 @@
         obj = obj || {};
         obj.date = new Date().getTime();
         obj.id = self.background.currentRadio.id || null;
-        obj.nameId = self.getNameId(obj.name || self.background.currentRadio.name);
+        obj.nameId = self.background.currentRadio.nameId;
         return self.getFirebaseData(obj)
     };
 
